@@ -1,3 +1,21 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+
 h1 {
   color: firebrick;
+  background-color: white;
+}
+
+p {
+  color: #f00000;
+  background-color: white;
+
+  font: bold 25px Verdana, Geneva, Tahoma, sans-serifrd;
+  /* OR
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+
+  line-height: 1.6em; /* space between lines */
 }
