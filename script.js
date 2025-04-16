@@ -27,4 +27,8 @@ const Person = {
   marks: [10, 20, 50, 90, 40, 33],
 };
 
-console.log(Person.marks[5]);
+console.log(Person);
+
+//pull data from object into vaiables
+const { name, age } = Person;
+console.log(name + " " + age);
